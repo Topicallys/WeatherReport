@@ -72,7 +72,7 @@ public class RestTest {
         System.out.println("Влажность: " + humidity + "%");
         System.out.println("Атмосферное давление: " + pressure + " гПа");
         System.out.println("Ветер: " + windSpeed + " м/с");
-        System.out.println("Описание погоды: " + description.substring(1, description.length() - 2));
+        System.out.println("Описание погоды: " + description.substring(1, description.length() - 1));
         System.out.println("Дата и время: " + datetime);
 
     }
